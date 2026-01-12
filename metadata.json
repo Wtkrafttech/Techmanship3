@@ -1,8 +1,8 @@
 {
-  "name": "Techmanship  3",
+  "name": "Techmanship 3D",
   "short_name": "Techmanship",
   "description": "Premium Web Scripts, Software Automation, HTML Templates, and Tech Tutorials.",
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#050505",
   "background_color": "#050505",
