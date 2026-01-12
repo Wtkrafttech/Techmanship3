@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#050505">
+    <meta name="description" content="Techmanship 3D - The Ultimate Tech Repository for Premium Web Scripts and Software Automation.">
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Techmanship 3D">
+    <meta property="og:description" content="Premium Web Scripts, Software Automation, HTML Templates, and Tech Tutorials.">
+    <meta property="og:image" content="https://i.postimg.cc/HxbV8zdK/techmanship-logo.png">
+
+    <title>Techmanship 3D</title>
+    
+    <!-- Favicon references -->
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/HxbV8zdK/techmanship-logo.png">
+    <link rel="apple-touch-icon" href="https://i.postimg.cc/HxbV8zdK/techmanship-logo.png">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        border: "hsl(240 3.7% 15.9%)",
+                        input: "hsl(240 3.7% 15.9%)",
+                        ring: "hsl(240 4.9% 83.9%)",
+                        background: "hsl(240 10% 3.9%)",
+                        foreground: "hsl(0 0% 98%)",
+                        primary: {
+                            DEFAULT: "hsl(0 0% 98%)",
+                            foreground: "hsl(240 5.9% 10%)",
+                        },
+                        secondary: {
+                            DEFAULT: "hsl(240 3.7% 15.9%)",
+                            foreground: "hsl(0 0% 98%)",
+                        },
+                        destructive: {
+                            DEFAULT: "hsl(0 62.8% 30.6%)",
+                            foreground: "hsl(0 0% 98%)",
+                        },
+                        muted: {
+                            DEFAULT: "hsl(240 3.7% 15.9%)",
+                            foreground: "hsl(240 5% 64.9%)",
+                        },
+                        accent: {
+                            DEFAULT: "hsl(240 3.7% 15.9%)",
+                            foreground: "hsl(0 0% 98%)",
+                        },
+                        popover: {
+                            DEFAULT: "hsl(240 10% 3.9%)",
+                            foreground: "hsl(0 0% 98%)",
+                        },
+                        card: {
+                            DEFAULT: "hsl(240 10% 3.9%)",
+                            foreground: "hsl(0 0% 98%)",
+                        },
+                    },
+                    animation: {
+                        'marquee': 'marquee 30s linear infinite',
+                    },
+                    keyframes: {
+                        marquee: {
+                            '0%': { transform: 'translateX(0%)' },
+                            '100%': { transform: 'translateX(-50%)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+        body { 
+            font-family: 'Inter', sans-serif; 
+            font-size: 14px;
+            background-color: #050505;
+        }
+        
+        @media (min-width: 768px) {
+            body { font-size: 16px; }
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        html, body {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+            overscroll-behavior-y: none;
+            background: #050505;
+        }
+
+        input, textarea, select {
+            font-size: 16px !important;
+        }
+
+        @media screen and (min-width: 768px) {
+            input, textarea, select {
+                font-size: 0.875rem !important;
+            }
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.12.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "@google/genai": "https://esm.sh/@google/genai@^0.21.0"
+  }
+}
+</script>
+</head>
+<body class="bg-[#050505] text-foreground antialiased min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
+</body>
+</html>

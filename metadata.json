@@ -1,0 +1,20 @@
+{
+  "name": "Techmanship  3",
+  "short_name": "Techmanship",
+  "description": "Premium Web Scripts, Software Automation, HTML Templates, and Tech Tutorials.",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#050505",
+  "background_color": "#050505",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "icons": [
+    {
+      "src": "https://i.postimg.cc/HxbV8zdK/techmanship-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
